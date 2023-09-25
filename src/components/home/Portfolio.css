@@ -1,0 +1,39 @@
+.portfolio{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutMe{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.moreAbout{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.119);
+}
+.certi{
+    margin: 2rem 0.5rem;
+    
+}
+
+.crt{
+    height: 40%;
+    width: 40%;
+    margin: 2rem;
+}
+.res{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.132);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.119);
+}
+.cont{
+    
+    margin-top:2rem ;
+}

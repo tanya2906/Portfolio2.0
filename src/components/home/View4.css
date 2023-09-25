@@ -1,0 +1,57 @@
+.View4div{
+    display: flex;
+    background-image: linear-gradient(to right, rgba(206, 2, 175, 0.819), rgba(124, 2, 185, 0.819),rgb(69, 2, 185,0.819));
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items:center ;
+    padding-bottom: 7rem;
+}
+.v4d1 img{
+    width: 25rem;
+}
+.v4d2{
+    display: flex;
+    flex-direction: column;
+}
+.v4d2d{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding: 1rem 0;
+    gap: 5px;
+}
+.v4d2d input, #message{
+    
+    background-color:rgba(255, 254, 254, 0.147);
+    border-color: rgba(255, 255, 255, 0.619);
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+#message{
+    margin-top: -14px;
+    margin-bottom: 2rem;
+}
+.v4d2d input::placeholder{
+    color: rgba(255, 255, 255, 0.823);
+}
+#message::placeholder{
+    color: rgba(255, 255, 255, 0.823);
+}
+.View4div button{
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px 1rem;
+}
+@media only screen and (max-width:1300px){
+    .v4d1{
+        display: none;
+    }
+}
+@media only screen and (max-width:580px){
+    .v4d2d input{
+        width: 85%;
+    }
+    #message{
+        height: 8rem;
+    }
+}

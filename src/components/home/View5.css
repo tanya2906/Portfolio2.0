@@ -1,0 +1,38 @@
+.View5div{
+    border: 1px solid black;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 40rem;
+    border-radius: 30px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -3rem;
+    
+}
+.v5d1{
+    cursor: pointer;
+}
+.v5d2 p{
+    font-size: smaller;
+    opacity: 0.5;
+}
+.v5d2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.v5d2 a{
+    margin: 5px;
+}
+@media only screen and (max-width:580px){
+    .View5div{
+        
+        padding: 1rem;
+
+    }
+}

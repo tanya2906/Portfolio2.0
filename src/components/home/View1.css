@@ -1,0 +1,127 @@
+.view1Div{
+    padding: 2rem;
+    
+}
+.v1D1{
+    padding-left: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    justify-content: center;
+}
+.v1D1 button {
+    cursor: pointer;
+    padding: 5px;
+    width: fit-content;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgba(206, 2, 175, 0.819), rgba(124, 2, 185, 0.819),rgb(69, 2, 185,0.819));
+    position: relative;
+    transform: top 2s;
+    transform: background-image 2s;
+    border-radius: 10px;
+}
+.v1D1 button a{
+    color: white;
+}
+.v1D1 button:hover{
+    top: -2px;
+}
+.v1D1 span{
+    cursor: pointer;
+    
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: right 1s ;
+}
+.v1D1 H1{
+    font-size: xxx-large;
+}
+.v1D1 span p{
+    font-weight: 600;
+}
+.v1D1 span:hover{
+    right: -10px;
+}
+.v1D1 article{
+    margin-bottom: 2rem;
+}
+.vi1{
+    margin: 0 7px;
+}
+.vi2{
+    
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    right: 4rem ;
+    animation:rotate 20s infinite linear ;
+}
+@keyframes rotate{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}/*
+.v1D2{
+    display: none;
+}
+.vi3{
+    border: 1px solid black;
+    width: 30rem;
+    height: auto;
+}*/
+@media only screen and (max-width:1250px){
+    .v1D1{
+        z-index: 1;
+        align-items: center;
+        background-image:linear-gradient(rgba(255, 255, 255, 0.281),rgba(255, 255, 255, 0.289)),url("image1.png") ;
+        background-size: 80% ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .vi2{
+        display: none;
+    }/*
+    .v1D2{
+        
+        opacity: 0.5;
+        z-index: -1;
+        display: block;
+        position: absolute;
+        top: 8rem;
+        left: 25%;
+        right: 25%;
+    }*/
+}
+@media only screen and (max-width:500px){
+    .v1D1{
+        padding: 0rem;
+        text-align: center;
+        font-size:x-small;
+    }
+    .v1D1 h1{
+        font-size: xx-large;
+    }
+    .v1D1 button{
+        position: relative;
+        top: -8vh;
+        font-size:x-small;
+    }
+    .v1D1 span{
+        position: relative;
+        top: 10vh;
+    }
+}
+@media only screen and (max-width:300px){
+    .v1D1 button{
+        top: -5vh;
+    }
+    .v1D1 span{
+        top: 5vh;
+    }
+}

@@ -1,0 +1,30 @@
+.moreDiv{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.915);
+    color: rgb(255, 255, 255);
+    padding-top: 3rem;
+    justify-content: center;
+}
+.moreDiv ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+.moreDiv li{
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    transition: top 1s;
+}
+.moreDiv li:hover{
+    color: rgb(158, 158, 158);
+    top:-1px;
+}
+.moreDiv li a:hover{
+    color: rgb(158, 158, 158);
+    top:-1px;
+}
+.moreDiv a{
+    color: white;
+}

@@ -1,0 +1,117 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.container .card{
+    position: relative;
+    width: 220px;
+    height: 250px;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+.container .card .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+
+}
+.container .card .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: rgba(175, 175, 175, 0.636);
+    stroke-width: 5;
+    transform: translate(5px,5px);
+}
+.container .card .percent svg circle:nth-child(2)
+{
+    stroke:rgb(206, 2, 175);
+    stroke-dasharray: 440;
+    /*calc(440-(440*85)/100);*/
+}
+.html{
+    stroke-dashoffset:calc(44*2);
+}
+.css{
+    stroke-dashoffset:calc(44*2);
+}
+.js{
+    stroke-dashoffset:calc(44*3);
+}
+.react{
+    stroke-dashoffset:calc(44*4);
+}
+.cpp{
+    stroke-dashoffset:calc(44*2);
+}
+.java{
+    stroke-dashoffset:calc(44*4);
+}
+.card p{
+    color: white;
+    position: absolute; 
+    text-align: center;
+}
+
+
+.View2div{
+    padding: 2rem;    
+    
+    display: flex;
+    justify-content: center;
+}
+.v2{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 2rem;
+}
+.v2p1{
+    padding: 2rem 0;
+    width: 70%;
+    text-align: center;
+}
+.moreSkills{
+    margin-top: 1rem;
+}
+.v2button{
+    margin: 2rem 0;
+    cursor: pointer;
+    padding: 5px;
+    width: fit-content;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgba(206, 2, 175, 0.819), rgba(124, 2, 185, 0.819),rgb(69, 2, 185,0.819));
+    position: relative;
+    transform: top 2s;
+    transform: background-image 2s;
+}
+.v2button:hover{
+    top: -1px;
+    background-image: linear-gradient(to right, rgba(206, 2, 175, 0.724), rgba(124, 2, 185, 0.724),rgb(69, 2, 185,0.724));
+}
+@media only screen and (max-width:900px){
+    .v2p1{
+        width: 24rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .v2p1{
+        width: 95%;
+    }
+}
