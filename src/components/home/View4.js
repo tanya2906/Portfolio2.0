@@ -32,7 +32,7 @@ export default function View4(props) {
                {/* <input type="text" name="" id="message" placeholder="Message"/>*/} 
                 
              </div>
-             <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+             <textarea placeholder="Message" name="message" id="message"  rows="10"></textarea>
              <button>Send</button>
              </form>
            </div> 
